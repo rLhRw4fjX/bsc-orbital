@@ -29,14 +29,14 @@ import (
 
 	"github.com/prometheus/tsdb/fileutil"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/rLhRw4fjX/bsc-orbital/accounts"
+	"github.com/rLhRw4fjX/bsc-orbital/core/rawdb"
+	"github.com/rLhRw4fjX/bsc-orbital/ethdb"
+	"github.com/rLhRw4fjX/bsc-orbital/ethdb/leveldb"
+	"github.com/rLhRw4fjX/bsc-orbital/event"
+	"github.com/rLhRw4fjX/bsc-orbital/log"
+	"github.com/rLhRw4fjX/bsc-orbital/p2p"
+	"github.com/rLhRw4fjX/bsc-orbital/rpc"
 )
 
 // Node is a container on which services can be registered.

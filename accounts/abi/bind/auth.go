@@ -23,13 +23,13 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/rLhRw4fjX/bsc-orbital/accounts"
+	"github.com/rLhRw4fjX/bsc-orbital/accounts/external"
+	"github.com/rLhRw4fjX/bsc-orbital/accounts/keystore"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
+	"github.com/rLhRw4fjX/bsc-orbital/core/types"
+	"github.com/rLhRw4fjX/bsc-orbital/crypto"
+	"github.com/rLhRw4fjX/bsc-orbital/log"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

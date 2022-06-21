@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/flowcontrol"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/rLhRw4fjX/bsc-orbital/common/mclock"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/ethconfig"
+	"github.com/rLhRw4fjX/bsc-orbital/ethdb"
+	"github.com/rLhRw4fjX/bsc-orbital/les/flowcontrol"
+	"github.com/rLhRw4fjX/bsc-orbital/log"
+	"github.com/rLhRw4fjX/bsc-orbital/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

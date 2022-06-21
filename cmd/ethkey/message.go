@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/rLhRw4fjX/bsc-orbital/accounts/keystore"
+	"github.com/rLhRw4fjX/bsc-orbital/cmd/utils"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
+	"github.com/rLhRw4fjX/bsc-orbital/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

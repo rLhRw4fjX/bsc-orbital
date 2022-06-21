@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/rLhRw4fjX/bsc-orbital"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
+	"github.com/rLhRw4fjX/bsc-orbital/core/rawdb"
+	"github.com/rLhRw4fjX/bsc-orbital/core/state/snapshot"
+	"github.com/rLhRw4fjX/bsc-orbital/core/types"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/protocols/eth"
+	"github.com/rLhRw4fjX/bsc-orbital/ethdb"
+	"github.com/rLhRw4fjX/bsc-orbital/event"
+	"github.com/rLhRw4fjX/bsc-orbital/trie"
 )
 
 // Reduce some of the parameters to make the tester faster.

@@ -23,16 +23,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
+	"github.com/rLhRw4fjX/bsc-orbital/common/mclock"
+	"github.com/rLhRw4fjX/bsc-orbital/core/forkid"
+	"github.com/rLhRw4fjX/bsc-orbital/core/types"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/downloader"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/protocols/eth"
+	"github.com/rLhRw4fjX/bsc-orbital/light"
+	"github.com/rLhRw4fjX/bsc-orbital/log"
+	"github.com/rLhRw4fjX/bsc-orbital/p2p"
+	"github.com/rLhRw4fjX/bsc-orbital/params"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server

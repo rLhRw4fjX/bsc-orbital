@@ -22,16 +22,16 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
+	"github.com/rLhRw4fjX/bsc-orbital/common/hexutil"
+	"github.com/rLhRw4fjX/bsc-orbital/consensus"
+	"github.com/rLhRw4fjX/bsc-orbital/core"
+	"github.com/rLhRw4fjX/bsc-orbital/core/state"
+	"github.com/rLhRw4fjX/bsc-orbital/core/types"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/downloader"
+	"github.com/rLhRw4fjX/bsc-orbital/event"
+	"github.com/rLhRw4fjX/bsc-orbital/log"
+	"github.com/rLhRw4fjX/bsc-orbital/params"
 )
 
 // Backend wraps all methods required for mining.

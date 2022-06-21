@@ -20,15 +20,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
+	"github.com/rLhRw4fjX/bsc-orbital/common/hexutil"
+	"github.com/rLhRw4fjX/bsc-orbital/core"
+	"github.com/rLhRw4fjX/bsc-orbital/core/rawdb"
+	"github.com/rLhRw4fjX/bsc-orbital/core/types"
+	"github.com/rLhRw4fjX/bsc-orbital/core/vm"
+	"github.com/rLhRw4fjX/bsc-orbital/crypto"
+	"github.com/rLhRw4fjX/bsc-orbital/params"
+	"github.com/rLhRw4fjX/bsc-orbital/tests"
 )
 
 // callTrace is the result of a callTracer run.

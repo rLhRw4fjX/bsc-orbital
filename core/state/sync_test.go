@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
+	"github.com/rLhRw4fjX/bsc-orbital/core/rawdb"
+	"github.com/rLhRw4fjX/bsc-orbital/crypto"
+	"github.com/rLhRw4fjX/bsc-orbital/ethdb"
+	"github.com/rLhRw4fjX/bsc-orbital/ethdb/memorydb"
+	"github.com/rLhRw4fjX/bsc-orbital/rlp"
+	"github.com/rLhRw4fjX/bsc-orbital/trie"
 )
 
 // testAccount is the data associated with an account used by the state tests.

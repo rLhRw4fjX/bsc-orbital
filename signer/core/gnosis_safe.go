@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
+	"github.com/rLhRw4fjX/bsc-orbital/common/hexutil"
+	"github.com/rLhRw4fjX/bsc-orbital/common/math"
 )
 
 // GnosisSafeTx is a type to parse the safe-tx returned by the relayer,

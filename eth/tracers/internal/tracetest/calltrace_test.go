@@ -26,22 +26,22 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
+	"github.com/rLhRw4fjX/bsc-orbital/common/hexutil"
+	"github.com/rLhRw4fjX/bsc-orbital/common/math"
+	"github.com/rLhRw4fjX/bsc-orbital/core"
+	"github.com/rLhRw4fjX/bsc-orbital/core/rawdb"
+	"github.com/rLhRw4fjX/bsc-orbital/core/types"
+	"github.com/rLhRw4fjX/bsc-orbital/core/vm"
+	"github.com/rLhRw4fjX/bsc-orbital/crypto"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/tracers"
+	"github.com/rLhRw4fjX/bsc-orbital/params"
+	"github.com/rLhRw4fjX/bsc-orbital/rlp"
+	"github.com/rLhRw4fjX/bsc-orbital/tests"
 
 	// Force-load native and js pacakges, to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
-	_ "github.com/ethereum/go-ethereum/eth/tracers/native"
+	_ "github.com/rLhRw4fjX/bsc-orbital/eth/tracers/js"
+	_ "github.com/rLhRw4fjX/bsc-orbital/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

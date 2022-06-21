@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
 )
 
 const (

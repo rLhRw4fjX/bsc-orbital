@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/rLhRw4fjX/bsc-orbital"
+	"github.com/rLhRw4fjX/bsc-orbital/accounts"
+	"github.com/rLhRw4fjX/bsc-orbital/core/types"
+	"github.com/rLhRw4fjX/bsc-orbital/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

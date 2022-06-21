@@ -22,12 +22,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/protocols/diff"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/downloader"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/protocols/diff"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/protocols/eth"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/protocols/snap"
+	"github.com/rLhRw4fjX/bsc-orbital/p2p"
 )
 
 var (

@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/rLhRw4fjX/bsc-orbital/accounts/abi"
+	"github.com/rLhRw4fjX/bsc-orbital/accounts/abi/bind"
+	"github.com/rLhRw4fjX/bsc-orbital/accounts/keystore"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
+	"github.com/rLhRw4fjX/bsc-orbital/core/types"
 )
 
 // Signer is an interface defining the callback when a contract requires a

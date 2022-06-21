@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/rLhRw4fjX/bsc-orbital/core/vm"
 )
 
 func TestState(t *testing.T) {

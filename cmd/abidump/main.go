@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
+	"github.com/rLhRw4fjX/bsc-orbital/signer/core"
+	"github.com/rLhRw4fjX/bsc-orbital/signer/fourbyte"
 )
 
 func init() {

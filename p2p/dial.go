@@ -27,11 +27,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/rLhRw4fjX/bsc-orbital/common/gopool"
+	"github.com/rLhRw4fjX/bsc-orbital/common/mclock"
+	"github.com/rLhRw4fjX/bsc-orbital/log"
+	"github.com/rLhRw4fjX/bsc-orbital/p2p/enode"
+	"github.com/rLhRw4fjX/bsc-orbital/p2p/netutil"
 )
 
 const (

@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/eth/protocols/diff"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/protocols/diff"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/protocols/eth"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/protocols/snap"
 )
 
 // ethPeerInfo represents a short summary of the `eth` sub-protocol metadata known

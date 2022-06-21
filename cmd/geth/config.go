@@ -27,13 +27,13 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/eth/catalyst"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/rLhRw4fjX/bsc-orbital/cmd/utils"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/catalyst"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/ethconfig"
+	"github.com/rLhRw4fjX/bsc-orbital/internal/ethapi"
+	"github.com/rLhRw4fjX/bsc-orbital/metrics"
+	"github.com/rLhRw4fjX/bsc-orbital/node"
+	"github.com/rLhRw4fjX/bsc-orbital/params"
 	"github.com/naoina/toml"
 )
 

@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/rLhRw4fjX/bsc-orbital/cmd/devp2p/internal/v4test"
+	"github.com/rLhRw4fjX/bsc-orbital/internal/utesting"
+	"github.com/rLhRw4fjX/bsc-orbital/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

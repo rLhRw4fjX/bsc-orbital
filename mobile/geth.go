@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/rLhRw4fjX/bsc-orbital/core"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/downloader"
+	"github.com/rLhRw4fjX/bsc-orbital/eth/ethconfig"
+	"github.com/rLhRw4fjX/bsc-orbital/ethclient"
+	"github.com/rLhRw4fjX/bsc-orbital/ethstats"
+	"github.com/rLhRw4fjX/bsc-orbital/internal/debug"
+	"github.com/rLhRw4fjX/bsc-orbital/les"
+	"github.com/rLhRw4fjX/bsc-orbital/node"
+	"github.com/rLhRw4fjX/bsc-orbital/p2p"
+	"github.com/rLhRw4fjX/bsc-orbital/p2p/nat"
+	"github.com/rLhRw4fjX/bsc-orbital/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

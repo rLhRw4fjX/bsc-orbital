@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/gopool"
+	"github.com/rLhRw4fjX/bsc-orbital/common/gopool"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/rLhRw4fjX/bsc-orbital/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/vm/lightclient"
+	"github.com/rLhRw4fjX/bsc-orbital/core/vm/lightclient"
 	"github.com/stretchr/testify/require"
 )
 

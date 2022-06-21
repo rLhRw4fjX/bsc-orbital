@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/gopool"
+	"github.com/rLhRw4fjX/bsc-orbital/common/gopool"
 )
 
 // Iterator represents a sequence of nodes. The Next method moves to the next node in the

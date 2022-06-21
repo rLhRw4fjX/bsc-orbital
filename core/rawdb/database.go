@@ -27,11 +27,11 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/rLhRw4fjX/bsc-orbital/common"
+	"github.com/rLhRw4fjX/bsc-orbital/ethdb"
+	"github.com/rLhRw4fjX/bsc-orbital/ethdb/leveldb"
+	"github.com/rLhRw4fjX/bsc-orbital/ethdb/memorydb"
+	"github.com/rLhRw4fjX/bsc-orbital/log"
 )
 
 // freezerdb is a database wrapper that enabled freezer data retrievals.

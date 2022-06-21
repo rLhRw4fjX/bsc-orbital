@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/rLhRw4fjX/bsc-orbital/common/mclock"
 )
 
 type UpdateTimer struct {
